@@ -4,5 +4,6 @@ command = "yarn project-setup && yarn build"
 
 [build.environment]
 HUGO_VERSION = "0.147.2"
-GO_VERSION = "1.24.3"
+GO_VERSION = "1.21.3"
 HUGO_BASEURL = "/"
+
