@@ -2,14 +2,3 @@
   command = "npm run build"
   publish = "public"
 
-[context.production.environment]
-  HUGO_VERSION = "0.139.0"
-  HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
-
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.139.0"
-
-[context.branch-deploy.environment]
-  HUGO_VERSION = "0.139.0"
-
