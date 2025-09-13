@@ -1,5 +1,5 @@
 [build]
-base directory ="app"
+base ="app"
 publish = "dist"
 command = "npm run dev"
 
