@@ -1,9 +1,8 @@
 [build]
-publish = "public"
-command = "yarn project-setup && yarn build"
+publish = "dist"
+command = "npm run dev"
 
-[build.environment]
-HUGO_VERSION = "0.147.2"
-GO_VERSION = "1.21.3"
-HUGO_BASEURL = "/"
-
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
