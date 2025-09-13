@@ -1,9 +1,10 @@
-[build]
-base ="app"
+[buili]
+base = "app"
 publish = "dist"
-command = "npm run dev"
+command = "npm run build"
 
 [[redirects]]
 from = "/*"
 to = "/index.html"
 status = 200
+
